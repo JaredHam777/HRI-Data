@@ -1,0 +1,90 @@
+1142020121332PM, Experiment Order: AFACRFRC
+
+1142020120909PM, Trial 0
+Iteration 0: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 14.51865
+Iteration 1: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 3.071747
+Iteration 2: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 3.231598
+Iteration 3: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 3.113403
+Iteration 4: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 3.579132
+Iteration 5: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 3.215271
+Iteration 6: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 3.085449
+Iteration 7: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 3.766449
+Iteration 8: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 2.940186
+Iteration 9: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 3.302277
+
+1142020121906PM, Trial 1
+Iteration 0: correct obj: 1
+user clicked obj2 (UnityEngine.GameObject) at time 86.68536
+Iteration 1: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 77.06377
+Iteration 2: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 22.1169
+Iteration 3: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 8.761658
+Iteration 4: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 4.02182
+Iteration 5: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 7.218079
+Iteration 6: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 18.94525
+Iteration 7: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 12.91141
+Iteration 8: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 9.480774
+Iteration 9: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 4.478973
+
+1142020122143PM, Trial 2
+Iteration 0: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 4.428528
+Iteration 1: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 2.211884
+Iteration 2: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 1.71286
+Iteration 3: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 3.03009
+Iteration 4: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 2.590485
+Iteration 5: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 1.370178
+Iteration 6: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 2.898315
+Iteration 7: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 1.16452
+Iteration 8: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 2.536163
+Iteration 9: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 2.842773
+
+1142020122346PM, Trial 3
+Iteration 0: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 3.622925
+Iteration 1: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 2.386536
+Iteration 2: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 2.864685
+Iteration 3: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 0.8252563
+Iteration 4: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 3.383423
+Iteration 5: correct obj: 1
+user clicked obj1 (UnityEngine.GameObject) at time 2.542603
+Iteration 6: correct obj: 2
+user clicked obj2 (UnityEngine.GameObject) at time 1.698303
+Iteration 7: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 2.549011
+Iteration 8: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 1.614868
+Iteration 9: correct obj: 3
+user clicked obj3 (UnityEngine.GameObject) at time 2.145874
+
