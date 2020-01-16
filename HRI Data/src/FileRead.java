@@ -19,6 +19,8 @@ public class FileRead {
 		FileReader file;
 		Scanner sc;
 		try {
+			int iterationNum = 0;
+			int trialNum = 0;
 			file = new FileReader(fileName);
 			sc = new Scanner(file);
 			String header = sc.nextLine();
@@ -26,6 +28,12 @@ public class FileRead {
 			System.out.println("HEADER: " + header);
 			while(sc.hasNextLine()) {
 				String line = sc.nextLine();
+				if(line.length()>0) {	//if line is not blank
+					if(line.contains("Iteration"))	{
+						//iterationNum = Integer. line.substring(line.indexOf("Iteration")+10, 1);
+					}
+					
+				}
 			}
 			
 			
