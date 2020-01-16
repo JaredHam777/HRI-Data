@@ -5,14 +5,14 @@ public class Main {
 	
 	public static final int NUM_FILES = 7;
 
-	public static Map<Integer, String> LSDictionary;
+	public static Map<String, Integer> LSDictionary;
 	
 	public static void main(String[] args) {
-		LSDictionary = new HashMap<Integer, String>();
-		LSDictionary.put(0, "ACRFRCAF");
-		LSDictionary.put(1, "AFACRFRC");
-		LSDictionary.put(2, "RCAFACRF");
-		LSDictionary.put(3, "RFRCAFAC");
+		LSDictionary = new HashMap<String, Integer>();
+		LSDictionary.put("ACRFRCAF", 0);
+		LSDictionary.put("AFACRFRC", 1);
+		LSDictionary.put("RCAFACRF", 2);
+		LSDictionary.put("RFRCAFAC", 3);
 
 		FileRead.fetchExperimentFromFile(0);
 		

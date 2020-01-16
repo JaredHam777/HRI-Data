@@ -21,16 +21,42 @@ public class FileRead {
 		try {
 			int iterationNum = 0;
 			int trialNum = 0;
+			
+			
+			
 			file = new FileReader(fileName);
 			sc = new Scanner(file);
 			String header = sc.nextLine();
 			header = header.substring(header.indexOf(": ") + 2, header.length());
 			System.out.println("HEADER: " + header);
+			
+			experiment.LS = Main.LSDictionary.get(header);
+			
+			
 			while(sc.hasNextLine()) {
 				String line = sc.nextLine();
 				if(line.length()>0) {	//if line is not blank
 					if(line.contains("Iteration"))	{
-						//iterationNum = Integer. line.substring(line.indexOf("Iteration")+10, 1);
+						iterationNum = Integer.parseInt(line.substring(line.indexOf("Iteration")+10, 1));
+						int correctObj = Integer.parseInt(line.substring(line.indexOf("obj: ") + 5, 1));
+						line = sc.nextLine();
+						int tappedObj = Integer.parseInt(line.substring(line.indexOf("obj") + 3, 1));
+						double time = Double.parseDouble(line.substring(line.indexOf("time ") + 5, line.length()));
+						
+						Iteration it = new Iteration();
+						it.time = time;
+						it.correctObj = correctObj;
+						if(tappedObj==correctObj) {
+							it.userCorrect = true;
+						}	else	{
+							it.userCorrect = false;
+						}
+						
+						experiment.trials[trialNum].iterations[iterationNum] = it;
+						
+						
+					}	else if(line.contains("Trial "))	{
+						trialNum = Integer.parseInt(line.substring(line.indexOf("Trial")+6, 1));
 					}
 					
 				}
