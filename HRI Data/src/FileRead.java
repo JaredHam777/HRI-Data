@@ -21,7 +21,7 @@ public class FileRead {
 		try {
 			int iterationNum = 0;
 			int trialNum = 0;
-			
+			Trial trial = new Trial();
 			
 			
 			file = new FileReader(fileName);
@@ -37,13 +37,14 @@ public class FileRead {
 				String line = sc.nextLine();
 				if(line.length()>0) {	//if line is not blank
 					if(line.contains("Iteration"))	{
-						iterationNum = Integer.parseInt(line.substring(line.indexOf("Iteration")+10, 1));
-						int correctObj = Integer.parseInt(line.substring(line.indexOf("obj: ") + 5, 1));
+						iterationNum = Integer.parseInt(line.substring(line.indexOf("Iteration")+10, line.indexOf("Iteration")+11));
+						int correctObj = Integer.parseInt(line.substring(line.indexOf("obj: ") + 5, line.indexOf("obj: ") + 6));
 						line = sc.nextLine();
-						int tappedObj = Integer.parseInt(line.substring(line.indexOf("obj") + 3, 1));
+						int tappedObj = Integer.parseInt(line.substring(line.indexOf("obj") + 3, line.indexOf("obj") + 4));
 						double time = Double.parseDouble(line.substring(line.indexOf("time ") + 5, line.length()));
 						
 						Iteration it = new Iteration();
+						
 						it.time = time;
 						it.correctObj = correctObj;
 						if(tappedObj==correctObj) {
@@ -52,11 +53,14 @@ public class FileRead {
 							it.userCorrect = false;
 						}
 						
-						experiment.trials[trialNum].iterations[iterationNum] = it;
+						trial.iterations[iterationNum] = it;
+						experiment.trials[trialNum] = trial;
+						
 						
 						
 					}	else if(line.contains("Trial "))	{
-						trialNum = Integer.parseInt(line.substring(line.indexOf("Trial")+6, 1));
+						trialNum = Integer.parseInt(line.substring(line.indexOf("Trial")+6, line.indexOf("Trial")+7));
+						trial = new Trial();
 					}
 					
 				}
