@@ -67,7 +67,7 @@ user clicked obj3 (UnityEngine.GameObject) at time 1.89888
 Iteration 9: correct obj: 2
 user clicked obj2 (UnityEngine.GameObject) at time 1.248444
 
-1142020111424AM, Trial 0
+1142020111424AM, Trial 3
 Iteration 0: correct obj: 1
 user clicked obj1 (UnityEngine.GameObject) at time 2.010418
 Iteration 1: correct obj: 2

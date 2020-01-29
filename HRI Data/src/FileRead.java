@@ -61,6 +61,8 @@ public class FileRead {
 					}	else if(line.contains("Trial "))	{
 						trialNum = Integer.parseInt(line.substring(line.indexOf("Trial")+6, line.indexOf("Trial")+7));
 						trial = new Trial();
+						String condition = header.substring(2*trialNum, 2*trialNum+2);
+						trial.condition = Condition.valueOf(condition);
 					}
 					
 				}
